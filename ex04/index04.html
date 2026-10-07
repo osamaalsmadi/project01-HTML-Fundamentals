@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 04 - Forms and Inputs</title>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+    
+    <form action="#" method="POST">
+        
+        
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required minlength="3">
+        <br><br>
+
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8">
+        <br><br>
+
+        
+        <label>Account Type:</label><br>
+        <input type="radio" id="student" name="accountType" value="student" required>
+        <label for="student">Cybersecurity Student</label><br>
+        
+        <input type="radio" id="professional" name="accountType" value="professional">
+        <label for="professional">SOC Analyst</label>
+        <br><br>
+
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country...</option>
+            <option value="jo">Jordan</option>
+            <option value="tr">Turkey</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        
+        <label for="bio">Short Bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="30" placeholder="Tell us about your skills..."></textarea>
+        <br><br>
+
+        
+        <input type="checkbox" id="agreement" name="agreement" required>
+        <label for="agreement">I agree to the terms and conditions</label>
+        <br><br>
+
+        
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>
