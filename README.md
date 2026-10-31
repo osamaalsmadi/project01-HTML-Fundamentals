@@ -1,16 +1,42 @@
-# project01-HTML-Fundamentals
+# HTML Fundamentals Labs
 
-Six introductory HTML exercises, organized from ex00 to ex05.
+Six HTML exercises covering text, links, images, tables, forms, and semantic structure.
 
-## Explore the project
+**HTML**
 
-- [ex00/index00.html](ex00/index00.html)
-- [ex01/index01.html](ex01/index01.html)
-- [ex02/index02.html](ex02/index02.html)
-- [ex03/index03.html](ex03/index03.html)
-- [ex04/index04.html](ex04/index04.html)
-- [ex05/index05.html](ex05/index05.html)
+## Exercise guide
 
-## View locally
+| Exercise | Topic | Source |
+| --- | --- | --- |
+| 00 | First HTML document | [Open HTML](ex00/index00.html) |
+| 01 | Headings and text | [Open HTML](ex01/index01.html) |
+| 02 | Links and images | [Open HTML](ex02/index02.html) |
+| 03 | Lists and tables | [Open HTML](ex03/index03.html) |
+| 04 | Registration form | [Open HTML](ex04/index04.html) |
+| 05 | Semantic page structure | [Open HTML](ex05/index05.html) |
 
-Clone or download this repository, then open an HTML entry point linked above in a browser. Keep its neighboring CSS, JavaScript, and asset folders in place.
+## Run locally
+
+Download or clone the repository, keep its folder structure intact, and open an exercise HTML file in your browser. GitHub's file view shows source code; it does not execute the page.
+
+For local HTTP serving, install Python 3 and run this from the repository root:
+
+```sh
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+Open http://127.0.0.1:8000 and select the exercise folder. Stop the server with Ctrl+C.
+
+## Review checklist
+
+- Open each exercise and check its intended behavior.
+- Try a narrow screen and keyboard navigation.
+- Inspect the browser console for errors.
+
+## Scope
+
+These are focused learning exercises, not a single production application. Each folder can be explored independently.
+
+---
+
+Part of [Osama Alsmadi’s project portfolio](https://github.com/osamaalsmadi).
